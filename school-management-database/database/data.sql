@@ -1,0 +1,142 @@
+insert into Rooms values ('B0',20,'classroom');
+insert into Rooms values ('B1',25,'classroom');
+insert into Rooms values ('B2',20,'classroom');
+insert into Rooms values ('01',15,'ComputerLab');
+insert into Rooms values ('02',20,'classroom');
+insert into Rooms values ('11',22,'classroom');
+insert into Rooms values ('12',25,'classroom');
+insert into Rooms values ('13',32,'classroom');
+insert into Rooms values ('14',14,'scienceLab');
+
+
+insert into Teachers values (1,'Ali','Ahmed',"2009-08-21",'Math','al12@gmail.com','0569378918');
+insert into Teachers values (2,'Nizar','Kareem',"2012-08-23",'Biology','nizar12@gmail.com','056415918');
+insert into Teachers values (3,'Moath','Alaa',"2010-08-15",'Arbic Langauge','moath123@gmail.com','0569374135');
+insert into Teachers values (4,'Hasan','Nidal',"2009-09-12",'English Language','h2sana@gmail.com','0599392712');
+insert into Teachers values (5,'Ahamed','Rami',"2011-07-16",'Chemistry','ahmad_rami@gmail.com','0599399511');
+insert into Teachers values (6,'Aws','Sadiq',"2009-08-10",'Physics','saiq201@gmail.com','0569399718');
+insert into Teachers values (7,'Noor','Waleed',"2011-06-19",'Arts','shsf12@gmail.com','0569399718');
+insert into Teachers values (8,'Besan','Rajab',"2011-09-25",'Physical Education','beso145_15@gmail.com','056944044');
+insert into Teachers values (9,'Musab','Imran',"2015-07-13",'Islamic Education','imran2020@gmail.com','0569397931');
+
+
+insert into Subjects values(1,'Math',1);
+insert into Subjects values(2,'Biology',2);
+insert into Subjects values(3,'Arbic Langauge',3);
+insert into Subjects values(4,'English Language',4);
+insert into Subjects values(5,'Chemistry',5);
+insert into Subjects values(6,'Physics',6);
+insert into Subjects values(7,'Arts',7);
+insert into Subjects values(8,'Physical Education',8);
+insert into Subjects values(9,'Islamic Education',9);
+
+
+insert into Class values('4A','Four Section A',4,'B0',1);
+insert into class values('4B','Four Section B',4,'B1',2);
+insert into class values('5A','Five Section A',5,'B2',3);
+insert into class values('5B','Five Section B',5,'01',4);
+insert into class values('5C','Five Section C',5,'02',5);
+insert into class values('6A','Six Section A',6,'11',6);
+insert into class values('6B','Six Section B',6,'12',7);
+insert into class values('7A','Seven Section A',7,'13',8);
+insert into class values('7B','Seven Section B',7,'14',9);
+insert into class values('8B','Seven Section B',7,'14',9);
+insert into class values('9B','Seven Section c',7,'14',9);
+
+
+insert into Guardians values(1,'Nidal Qasem','Nurse','0599415812');
+insert into Guardians values(2,'Yousef Jameel','Accountant','0599647892');
+insert into Guardians values(3,'AbdalRaouf Jihad','Manager','0599125212');
+insert into Guardians values(4,'Yaser Ahmed','Doctor','0599647899');
+insert into Guardians values(5,'Mohamed Ali','Engineer','0599611112');
+insert into Guardians values(6,'Addeb Kmail','IT Technician','0599147812');
+insert into Guardians values(7,'Israa Hamdan','Civil Engineer','0599477812');
+insert into Guardians values(8,'Karam Zayed','Marketing Officer','0590057812');
+insert into Guardians values(9,'Yazeed Allam','Driver','0599647414');
+insert into Guardians values(10,'Sami Mahmood','Plumber','0599647693');
+insert into Guardians values(11,'Sadiq Naser','Marketing Officer','0598057812');
+insert into Guardians values(12,'Isam Badi','Electrician','0599647774');
+insert into Guardians values(13,'Bilal Saber','Cleaner','0599647945');
+insert into Guardians values(14,'Asem Morad','Teacher','0599611945');
+insert into Guardians values(15,'Abdelrahman Khaleel','Police Man','0599671645');
+insert into Guardians values(16,'Najeeb Rahal','','0599677199');
+insert into Guardians values(17,'Hakeem Nazzal','Doctor','0599677199');
+insert into Guardians values(18,'Qais Rjob','Security Guard','0599677199');
+
+insert into Students values(1,"Ali","Assaf","2011-08-15","Male","Jenin",'4A',1);
+insert into Students values(2,"Khalid ","Jameel","2010-08-15","Male","Nablus",'4A',2);
+insert into Students values(3,"Ayham","Jihad","2012-08-15","Male","Jenin",'4B',3);
+insert into Students values(4,"Mohammed","Nimer","2012-08-15","Male","Zababdeh",'4B',4);
+insert into Students values(5,"Yousef","Nabeel","2013-08-15","Male","Nablus",'5A',5);
+insert into Students values(6,"Foad","Rasem","2011-08-15","Male","Jenin",'5A',6);
+insert into Students values(7,"Faris","Hamdan","2010-08-15","Male","Jenin Camp",'5B',7);
+insert into Students values(8,"Mustafa","Zayed","2013-08-15","Male","Zababdeh",'5C',8);
+insert into Students values(9,"Asmaa","Allam","2010-08-15","Female","Tubas",'6A',9);
+insert into Students values(10,"Khitam","Mahmood","2013-08-15","Female","Jenin",'6A',10);
+insert into Students values(11,"Majd","Naser","2011-08-15","Female","Jenin",'6B',11);
+insert into Students values(12,"Hala","Badi","2011-08-15","Female","Jenin",'6B',12);
+insert into Students values(13,"Abbas","Saber","2012-08-15","Male","Jenin",'7A',13);
+insert into Students values(14,"Hadi","Morad","2010-08-15","Male","Jenin",'7A',14);
+insert into Students values(15,"Hiba","Khaleel","2011-08-15","Female","Tubas",'7A',15);
+insert into Students values(16,"Jalal","Rahal","2011-08-15","Male","Jenin",'7B',16);
+insert into Students values(17,"Omar","Nazzal","2012-08-15","Male","Tubas",'7B',17);
+insert into Students values(18,"Talal","Rjob","2011-08-15","Male","Jenin Camp",'7B',18);
+
+
+
+insert into Exams values('EA1','First Exam',1,'4A',20,"2026-01-12 10:30:00");
+insert into Exams values('EA2','Second Exam',1,'4A',20,"2026-01-12 11:30:00");
+insert into Exams values('EA3','Midterm Exam',1,'4B',20,"2026-01-12 12:30:00");
+insert into Exams values('EA4','Quiz',1,'4B',20,"2026-01-12 10:30:00");
+insert into Exams values('EA5','First Exam',1,'5A',20,"2026-01-12 10:30:00");
+insert into Exams values('EAA2','Second Exam',1,'5A',20,"2026-01-28 11:30:00");
+insert into Exams values('EAA3','Midterm Exam',1,'5B',20,"2026-02-22 12:30:00");
+insert into Exams values('EAA4','Quiz',1,'5B',20,"2026-03-1 10:30:00");
+insert into Exams values('AA1','First Exam',1,'5B',20,"2026-03-15 10:30:00");
+insert into Exams values('AA2','Second Exam',1,'5C',20,"2026-03-17 11:30:00");
+insert into Exams values('AA3','Midterm Exam',1,'5C',20,"2026-05-14 12:30:00");
+insert into Exams values('AA4','Quiz',1,'5C',20,"2026-04-29 08:30:00");
+insert into Exams values('GAA2','Second Exam',1,'6A',20,"2026-01-12 11:30:00");
+insert into Exams values('GA3','Midterm Exam',1,'6B',20,"2026-01-20 12:30:00");
+insert into Exams values('GAA4','Quiz',1,'6B',20,"2026-01-25 10:30:00");
+insert into Exams values('GAA1','First Exam',1,'6A',20,"2026-01-23 10:30:00");
+insert into Exams values('GA2','Second Exam',1,'7A',20,"2026-01-27 11:30:00");
+insert into Exams values('GA33','Midterm Exam',1,'6B',20,"2026-02-09 12:30:00");
+insert into Exams values('GA41','Quiz',1,'5B',70,"2026-03-01 10:30:00");
+insert into Exams values('GG12','First Exam',1,'7B',20,"2026-03-11 10:30:00");
+insert into Exams values('GG21','Second Exam',1,'5C',20,"2026-03-16 11:30:00");
+insert into Exams values('GG32','Midterm Exam',1,'6A',20,"2026-05-4 12:30:00");
+insert into Exams values('GG41','Quiz',1,'7B',20,"2026-04-07 08:30:00");
+
+insert into Results values (1,'EA1','18');
+insert into Results values (2,'EA1','15');
+insert into Results values (1,'EA2','17');
+insert into Results values (2,'EA2','16');
+insert into Results values (3,'EA3','14');
+insert into Results values (4,'EA3','19');
+insert into Results values (3,'EA4','13');
+insert into Results values (4,'EA4','18');
+insert into Results values (5,'EA5','16');
+insert into Results values (6,'EA5','14');
+insert into Results values (5,'EAA2','17');
+insert into Results values (6,'EAA2','15');
+insert into Results values (7,'EAA3','18');
+insert into Results values (7,'EAA4','16');
+insert into Results values (7,'AA1','19');
+insert into Results values (8,'AA2','14');
+insert into Results values (8,'AA3','16');
+insert into Results values (8,'AA4','15');
+insert into Results values (9,'GAA1','18');
+insert into Results values (10,'GAA1','17');
+insert into Results values (9,'GAA2','16');
+insert into Results values (10,'GAA2','19');
+insert into Results values (11,'GA3','15');
+insert into Results values (12,'GA3','18');
+insert into Results values (11,'GAA4','14');
+insert into Results values (12,'GA33','17');
+insert into Results values (13,'GA2','16');
+insert into Results values (14,'GA2','18');
+insert into Results values (15,'GA2','17');
+insert into Results values (16,'GG12','15');
+insert into Results values (17,'GG12','18');
+insert into Results values (18,'GG41','16');
